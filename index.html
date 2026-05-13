@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litoral Norte Tour | Agência de Viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">LitoralNorte <span>Tour</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#destinos">Pacotes</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="carousel-container">
+        <div class="carousel-inner">
+            <div class="carousel-slide active">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Praia_Grande_Ubatuba_04.jpg" alt="Ubatuba">
+                <div class="carousel-caption">
+                    <h1>Explore Ubatuba</h1>
+                    <p>Mais de 100 praias paradisíacas esperam por si.</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://www.carpemundi.com.br/wp-content/uploads/2018/12/melhores-praias-de-ilhabela.jpg" alt="Ilhabela">
+                <div class="carousel-caption">
+                    <h1>A Magia de Ilhabela</h1>
+                    <p>Cachoeiras, trilhos e o melhor pôr-do-sol do litoral.</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://doralguaruja.com.br/wp-content/uploads/2023/08/Fotos-BLOG-1200x800-3-1.png" alt="Maresias">
+                <div class="carousel-caption">
+                    <h1>Ondas de Maresias</h1>
+                    <p>O destino perfeito para surf e diversão noturna.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+
+    <main id="destinos">
+        <h2 class="section-title">Destinos em Destaque</h2>
+        <div class="cards-grid">
+            
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www.carpemundi.com.br/wp-content/uploads/2018/12/melhores-praias-de-ilhabela.jpg" alt="Ilhabela">
+                </div>
+                <div class="card-body">
+                    <h3>Ilhabela VIP</h3>
+                    <p>3 dias com estadia em resort de luxo e passeio de escuna.</p>
+                    <span class="price">A partir de R$ 850</span>
+                    <a href="#" class="btn-primary">Reservar Agora</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Praia_Grande_Ubatuba_04.jpg" alt="Ubatuba">
+                </div>
+                <div class="card-body">
+                    <h3>Ubatuba Adventure</h3>
+                    <p>Trilhos pelas praias desertas e mergulho na Ilha das Couves.</p>
+                    <span class="price">A partir de R$ 620</span>
+                    <a href="#" class="btn-primary">Reservar Agora</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www.viagenscinematograficas.com.br/wp-content/uploads/2023/08/Sao-Sebastiao-Praias-O-que-Fazer-Capa.jpg" alt="São Sebastião">
+                </div>
+                <div class="card-body">
+                    <h3>São Sebastião Sunset</h3>
+                    <p>Relaxe nas melhores praias de São Sebastião com tudo incluído.</p>
+                    <span class="price">A partir de R$ 740</span>
+                    <a href="#" class="btn-primary">Reservar Agora</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 LitoralNorte Tour. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
